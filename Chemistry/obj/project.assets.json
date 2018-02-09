@@ -2,6 +2,21 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.0": {
+      "FParsec/1.0.3": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "4.2.3",
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.6/FParsec.dll": {},
+          "lib/netstandard1.6/FParsecCS.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.6/FParsec.dll": {},
+          "lib/netstandard1.6/FParsecCS.dll": {}
+        }
+      },
       "FsAlg/0.5.13": {
         "type": "package",
         "compile": {
@@ -1153,6 +1168,27 @@
     }
   },
   "libraries": {
+    "FParsec/1.0.3": {
+      "sha512": "0VoZapcSUHsNCixYawx8RFZHJMRVykaKsks5OOUXRP0bZCpr7UCP6kIjbVFGHIqqBGPtICUMy7j521sH0ZcmrQ==",
+      "type": "package",
+      "path": "fparsec/1.0.3",
+      "files": [
+        "fparsec.1.0.3.nupkg.sha512",
+        "fparsec.nuspec",
+        "lib/net40-client/FParsec.dll",
+        "lib/net40-client/FParsec.xml",
+        "lib/net40-client/FParsecCS.dll",
+        "lib/net40-client/FParsecCS.xml",
+        "lib/netstandard1.6/FParsec.dll",
+        "lib/netstandard1.6/FParsec.xml",
+        "lib/netstandard1.6/FParsecCS.dll",
+        "lib/netstandard1.6/FParsecCS.xml",
+        "lib/portable-net45+win8+wp8+wpa81/FParsec.dll",
+        "lib/portable-net45+win8+wp8+wpa81/FParsec.xml",
+        "lib/portable-net45+win8+wp8+wpa81/FParsecCS.dll",
+        "lib/portable-net45+win8+wp8+wpa81/FParsecCS.xml"
+      ]
+    },
     "FsAlg/0.5.13": {
       "sha512": "zUW9E+Q2eMuyCHQjm23/uNRVJP8n7ErDUlWgttYQEzXeaZG+Pjri5Q8I0Mpr/nOtMprE0/qAb06wgsQB2xHX6g==",
       "type": "package",
@@ -4391,6 +4427,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "FParsec >= 1.0.3",
       "FSharp.Core >= 4.2.*",
       "FSharp.Data >= 2.4.4",
       "FsAlg >= 0.5.13",
@@ -4407,11 +4444,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\shred\\Source\\Repos\\Chemistry\\Chemistry\\Chemistry.fsproj",
+      "projectUniqueName": "C:\\Users\\shred\\Source\\Repos\\ChemistryHelper\\Chemistry\\Chemistry.fsproj",
       "projectName": "Chemistry",
-      "projectPath": "C:\\Users\\shred\\Source\\Repos\\Chemistry\\Chemistry\\Chemistry.fsproj",
+      "projectPath": "C:\\Users\\shred\\Source\\Repos\\ChemistryHelper\\Chemistry\\Chemistry.fsproj",
       "packagesPath": "C:\\Users\\shred\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\shred\\Source\\Repos\\Chemistry\\Chemistry\\obj\\",
+      "outputPath": "C:\\Users\\shred\\Source\\Repos\\ChemistryHelper\\Chemistry\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -4438,6 +4475,10 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
+          "FParsec": {
+            "target": "Package",
+            "version": "[1.0.3, )"
+          },
           "FSharp.Core": {
             "target": "Package",
             "version": "[4.2.*, )"
