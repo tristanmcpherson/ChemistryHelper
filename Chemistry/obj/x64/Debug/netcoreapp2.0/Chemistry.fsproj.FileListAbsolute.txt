@@ -1,0 +1,9 @@
+C:\Users\shred\Source\Repos\Chemistry\Chemistry\bin\x64\Debug\netcoreapp2.0\PeriodicTable.csv
+C:\Users\shred\Source\Repos\Chemistry\Chemistry\bin\x64\Debug\netcoreapp2.0\Chemistry.deps.json
+C:\Users\shred\Source\Repos\Chemistry\Chemistry\bin\x64\Debug\netcoreapp2.0\Chemistry.runtimeconfig.json
+C:\Users\shred\Source\Repos\Chemistry\Chemistry\bin\x64\Debug\netcoreapp2.0\Chemistry.runtimeconfig.dev.json
+C:\Users\shred\Source\Repos\Chemistry\Chemistry\bin\x64\Debug\netcoreapp2.0\Chemistry.dll
+C:\Users\shred\Source\Repos\Chemistry\Chemistry\bin\x64\Debug\netcoreapp2.0\Chemistry.pdb
+C:\Users\shred\Source\Repos\Chemistry\Chemistry\obj\x64\Debug\netcoreapp2.0\Chemistry.fsprojResolveAssemblyReference.cache
+C:\Users\shred\Source\Repos\Chemistry\Chemistry\obj\x64\Debug\netcoreapp2.0\Chemistry.dll
+C:\Users\shred\Source\Repos\Chemistry\Chemistry\obj\x64\Debug\netcoreapp2.0\Chemistry.pdb
